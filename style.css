@@ -21,6 +21,7 @@ html, body {
   width: 2.6rem;
   border: 2px solid black;
   z-index: 222;
+  color: white;
 }
 #blackBtn1{
     left: 4rem;
@@ -58,3 +59,14 @@ html, body {
 #blackBtn10{
     left: 48rem;
 } */
+span{
+  position: absolute;
+  bottom: 2px;
+  font-weight: 500;
+}
+.playing{
+/*   background-color: skyblue; */
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(161, 161, 161),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}

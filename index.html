@@ -4,39 +4,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>piano</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <div class="container">
-    <div class="white-btn" id="whiteBtn1">C</div>
-    <div class="blackbtn" id="blackBtn1">D</div>
-    <div class="white-btn" id="whiteBtn2">E</div>
-    <div class="blackbtn" id="blackBtn2"></div>
-    <div class="white-btn" id="whiteBtn3">F</div>
-    <div class="blackbtn" id="blackBtn3"></div>
-    <div class="white-btn" id="whiteBtn4">G</div>
-    <div class="white-btn" id="whiteBtn5">A</div>
+    <div class="white-btn" id="whiteBtn1" data-key="65"><span>C</span></div>
+    <div class="blackbtn" data-key="66" id="blackBtn1"> <span>D</div>
+    <div class="white-btn" data-key="83" id="whiteBtn2"> <span>E</span></div>
+    <div class="blackbtn" data-key="68" id="blackBtn2"> <span>E#</span></div>
+    <div class="white-btn" data-key="70" id="whiteBtn3"> <span>F</span></div>
+    <div class="blackbtn" data-key="71" id="blackBtn3"> <span>F#</span></div>
+    <div class="white-btn" data-key="72" id="whiteBtn4"> <span>G</span></div>
+    <div class="white-btn" data-key="73" id="whiteBtn5"> <span>A</span></div>
 <!--     1st complete -->
-    <div class="blackbtn" id="blackBtn4"></div>
-    <div class="white-btn" id="whiteBtn6">B</div>
-    <div class="blackbtn" id="blackBtn5"></div>
-    <div class="white-btn" id="whiteBtn7">C</div>
-    <div class="blackbtn" id="blackBtn6"></div>
-    <div class="white-btn" id="whiteBtn8">D</div>
-    <div class="white-btn" id="whiteBtn9">E</div>
+    <div class="blackbtn" data-key="74" id="blackBtn4"> <span>A#</span></div>
+    <div class="white-btn" data-key="75" id="whiteBtn6"> <span>B</span></div>
+    <div class="blackbtn" data-key="76" id="blackBtn5"> <span>B#</span></div>
+    <div class="white-btn" data-key="77" id="whiteBtn7"> <span>C</span></div>
+    <div class="blackbtn" data-key="78" id="blackBtn6"> <span>C#</span></div>
+    <div class="white-btn" data-key="79" id="whiteBtn8"> <span>D</span></div>
+    <div class="white-btn" data-key="80" id="whiteBtn9"> <span>E</span></div>
 <!--     2nd -->
-    <div class="blackbtn" id="blackBtn7"></div>
-    <div class="white-btn" id="whiteBtn10">F</div>
-    <div class="blackbtn" id="blackBtn8"></div>
-    <div class="white-btn" id="whiteBtn11">G</div>
-    <div class="blackbtn" id="blackBtn9"></div>
-    <div class="white-btn" id="whiteBtn12">A</div>
-    <div class="blackbtn" id="blackBtn10"></div>
-    <div class="white-btn" id="whiteBtn13">B</div>
-    <div class="white-btn" id="whiteBtn14">C</div>
+    <div class="blackbtn" data-key="67" id="blackBtn7"> <span>E#</span></div>
+    <div class="white-btn" data-key="69" id="whiteBtn10"> <span>F</span></div>
+    <div class="blackbtn" data-key="81" id="blackBtn8"> <span>F#</span></div>
+    <div class="white-btn" data-key="82" id="whiteBtn11"> <span>G</span></div>
+    <div class="blackbtn" data-key="83" id="blackBtn9"> <span>G#</span></div>
+    <div class="white-btn" data-key="1" id="whiteBtn12"> <span>A</span></div>
+    <div class="blackbtn" data-key="2" id="blackBtn10"> <span>A#</span></div>
+    <div class="white-btn" data-key="3" id="whiteBtn13"> <span>B</span></div>
+    <div class="white-btn" data-key="4" id="whiteBtn14"> <span>C</span></div>
   </div>
+  <audio src="sound/key01.mp3" data-key="65"></audio>
+  <audio src="sound/key03.mp3" data-key="83"></audio>
+  <audio src="sound/key02.mp3" data-key="68"></audio>
+  <audio src="sound/key04.mp3" data-key="70"></audio>
+  <audio src="sound/key05.mp3" data-key="71"></audio>
+  <audio src="sound/key06.mp3" data-key="72"></audio>
+  <audio src="sound/key07.mp3" data-key="66"></audio>
+  <audio src="sound/key08.mp3" data-key="67"></audio>
+  <audio src="sound/key09.mp3" data-key="69"></audio>
+  <audio src="sound/key10.mp3" data-key="73"></audio>
+  <audio src="sound/key11.mp3" data-key="74"></audio>
+  <audio src="sound/key12.mp3" data-key="75"></audio>
+  <audio src="sound/key13.mp3" data-key="76"></audio>
+  <audio src="sound/key14.mp3" data-key="77"></audio>
+  <audio src="sound/key15.mp3" data-key="78"></audio>
+  <audio src="sound/key16.mp3" data-key="79"></audio>
+  <audio src="sound/key17.mp3" data-key="80"></audio>
+  <audio src="sound/key18.mp3" data-key="81"></audio>
+  <audio src="sound/key19.mp3" data-key="82"></audio>
+  <audio src="sound/key20.mp3" data-key="83"></audio>
+  <audio src="sound/key21.mp3" data-key="1"></audio>
+  <audio src="sound/key22.mp3" data-key="2"></audio>
+  <audio src="sound/key23.mp3" data-key="4"></audio>
+  <audio src="sound/key24.mp3" data-key="5"></audio>
   <script src="script.js"></script>
 
   <!--
