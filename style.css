@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  background: linear-gradient(to right , purple , #9e80cb);
+  width: 100%;
+}
+.container{
+  display: flex;
+  position: relative;
+}
+.white-btn{
+  background-color: white;
+  height: 16rem;
+  position: relative;
+  width: 4rem;
+  border: 2px solid black;
+}
+.blackbtn{
+  background-color: #030202;
+  height: 12rem;
+  position: absolute;
+  width: 2.6rem;
+  border: 2px solid black;
+  z-index: 222;
+}
+#blackBtn1{
+    left: 4rem;
+}
+#blackBtn2{
+    left: 8rem;
+}
+#blackBtn3{
+    left: 16rem;
+}
+#blackBtn4{
+    left: 20rem;
+}
+#blackBtn5{
+    left: 24rem;
+}
+#blackBtn6{
+    left: 32rem;
+}
+#blackBtn7{
+    left: 36rem;
+}
+#blackBtn8{
+    left: 45rem;
+}
+#blackBtn9{
+    left: 49rem;
+}
+#blackBtn10{
+    left: 53rem;
+}
+/* #blackBtn10{
+    left: 48rem;
+}
+#blackBtn10{
+    left: 48rem;
+} */
